@@ -1,6 +1,6 @@
 Bowling Game Kata
 =================
-> The goal of this lesson is to learn test-driven development by implementing a bowling scoring algorithm.
+> The goal of this lesson is to practice test-driven development by implementing an algorithm for the game of bowling.
 
 [bowling-score]: http://www.wpclipart.com/recreation/sports/bowling/bowling_scoresheet_example.png "bowling score card"
 
@@ -37,9 +37,30 @@ tenth frame.
 
 ## Notes
 
-One game
-A game has 10 frames
-A frame has one or two rolls
-The tenth frame has two or three rolls. It's different from all the other frames
-The score function must iterate through all the frames, and calculate the total score
-The score for a spare or a strike depends on the following frame
+* One game
+* A game has 10 frames
+* A frame has one or two rolls
+* The tenth frame has two or three rolls. It's different from all the other frames
+* The score function must iterate through all the frames, and calculate the total score
+* The score for a spare or a strike depends on the following two rolls
+
+
+## Setup
+
+* Install [nvm](https://github.com/creationix/nvm/blob/master/README.md#install-script) or
+[nvm-windows](https://github.com/coreybutler/nvm-windows) for windows
+* Install [yarn](https://yarnpkg.com/lang/en/docs/install/)
+* In the root directory of the project, run the following commands:
+    - `nvm use`
+    - `yarn install`
+
+
+## Running tests
+
+* To run tests, run the command `yarn test`
+* To run in watch mode, run `yarn test:watch`
+
+
+## How do I write tests in Jest?
+
+The [Jest API](https://facebook.github.io/jest/docs/en/api.html) is a good resource.

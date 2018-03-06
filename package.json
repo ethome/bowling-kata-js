@@ -1,0 +1,13 @@
+{
+  "name": "bowling-kata-js",
+  "version": "1.0.0",
+  "description": "Bowling kata for practicing test-driven development in javascript",
+  "main": "index.js",
+  "repository": "git@github.com:ethome/bowling-kata-js.git",
+  "author": "Ed Thome <ethome@thoughtworks.com>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^22.4.2"
+  }
+}

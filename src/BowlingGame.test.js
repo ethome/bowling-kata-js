@@ -26,9 +26,5 @@ describe('BowlingGame', () => {
     game.roll(3)
 
     expect(game.score()).toEqual(16)
-
-
   })
-
-
 })
